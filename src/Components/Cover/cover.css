@@ -1,0 +1,25 @@
+.cover-section {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--dark-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-section__logo {
+    width: 62px;
+    height: 62px;
+}
+
+.cover-section__title {
+    padding-left: 30px;
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: 0.04em;
+    font-family: 'UbuntuMedium', Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--white-bg-color);
+}
+
