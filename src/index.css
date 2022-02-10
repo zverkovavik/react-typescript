@@ -1,6 +1,44 @@
+:root {
+  --main-bg-color: #15B28D;
+  --main-brighter-bg-color: #0DD1A2;
+  --dark-bg-color: #1C1C1C;
+  --white-bg-color: #fff;
+  --correct-color: #1DC04B;
+  --incorrect-color: #F97676;
+}
+
+@font-face {
+  font-family: 'UbuntuLight';
+  src: url('/public/fonts/Ubuntu-Light.ttf') format("truetype"),
+  url('/public/fonts/Ubuntu-Light.woff') format("woff"),
+  url('/public/fonts/Ubuntu-Light.woff2') format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UbuntuRegular';
+  src: 
+  url('/public/fonts/Ubuntu-Regular.ttf') format("truetype"),
+  url('/public/fonts/Ubuntu-Regular.woff') format("woff"),
+  url('/public/fonts/Ubuntu-Regular.woff2') format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UbuntuMedium';
+  src: 
+  url('/public/fonts/Ubuntu-Medium.ttf') format("truetype"),
+  url('/public/fonts/Ubuntu-Medium.woff') format("woff"),
+  url('/public/fonts/Ubuntu-Medium.woff2') format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'UbuntuRegular', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +48,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a, 
+a:active,
+a:visited {
+  text-decoration: none;
+  color: inherit;
 }
