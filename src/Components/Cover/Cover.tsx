@@ -2,7 +2,7 @@ import React from "react";
 import './cover.css';
 import { Link } from 'react-router-dom';
 
-function Cover() {
+function Cover(): JSX.Element {
     return (
     <Link to={'/'} className="cover-section">
         <img className="cover-section__logo" src="./img/logo.png" alt="Company logo" />
