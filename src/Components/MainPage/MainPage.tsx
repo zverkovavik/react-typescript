@@ -1,7 +1,7 @@
 import React from "react";
 import NavigationPanel from '../NavigationPanel/NavigationPanel';
 
-function MainPage() {
+function MainPage(): JSX.Element {
     return (
         <>
             <NavigationPanel />

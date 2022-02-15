@@ -1,6 +1,6 @@
 import React from "react";
 
-function NavigationPanel() {
+function NavigationPanel(): JSX.Element {
     return (
     <header className="main-header">
         <div className="logo">
